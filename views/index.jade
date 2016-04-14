@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  each val in items
+    a(href=val.href,title=val.title ) #{val.title}
+    br
