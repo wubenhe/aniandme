@@ -81,7 +81,7 @@ var fetchDownloadLink = function(name) {
 }
 
 program. 
-    version('stop.0.1'). 
+    version('0.0.1'). 
     option('-n --name [value]', 'Program name'). 
     option('-e --episode <n>', 'End of episode', parseInt).
     option('-s --stop <n>', 'stop episode', parseInt).
